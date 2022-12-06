@@ -1,2 +1,4 @@
 .*
 !.gitignore
+input/
+*.egg-info/
