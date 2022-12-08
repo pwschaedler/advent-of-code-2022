@@ -2,6 +2,8 @@
 
 """
 
+from inspect import cleandoc
+
 
 def main() -> int:
     return 0
