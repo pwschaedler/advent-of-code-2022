@@ -2,22 +2,20 @@
 
 """
 
+import fileinput
 from inspect import cleandoc
 
 
 def main() -> int:
+    input_data = fileinput.input(encoding='utf-8')
     return 0
 
 
-def example_part1() -> None:
-    """Given example case for part 1."""
-
-
-def example_part2() -> None:
-    """Given example case for part 2."""
+def examples() -> None:
+    """Given example cases."""
+    sample_input = cleandoc("""""").splitlines(keepends=True)
 
 
 if __name__ == '__main__':
-    example_part1()
-    example_part2()
+    examples()
     raise SystemExit(main())
