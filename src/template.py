@@ -7,7 +7,11 @@ from inspect import cleandoc
 
 
 def main() -> int:
-    input_data = fileinput.input(encoding='utf-8')
+    """Main entry point."""
+    examples()
+
+    # fileinput.input(encoding='utf-8')
+
     return 0
 
 
@@ -17,5 +21,4 @@ def examples() -> None:
 
 
 if __name__ == '__main__':
-    examples()
     raise SystemExit(main())
