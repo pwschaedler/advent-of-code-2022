@@ -29,8 +29,7 @@ skip-string-normalization = true
 [tool.pylint.messages_control]
 disable = [
     "C0114",
-    "W2301"
+    "W2301",
+    "line-too-long",
+    "invalid-name"
 ]
-
-[tool.pylint.basic]
-good-names = "f"
